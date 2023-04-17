@@ -1,0 +1,167 @@
+@font-face {
+  font-family: fuenteNat;
+  src: url('./font/Kanit-Medium.ttf');
+}
+
+body {
+  background: rgb(26, 58, 91);
+  background-image: linear-gradient(#8fd98f -120%, #0f416f);
+  background-position: right;
+}
+
+nav {
+  position: fixed;
+  /*fijar un elemento en una posición determinada en la pantalla, incluso si el usuario se desplaza por la página.*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 2;
+
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 15px;
+  position: relative;
+  left: 500px;
+}
+
+nav a:hover {
+  opacity: 10;
+}
+
+nav img {
+  height: 30px;
+  width: auto;
+  display: inline-block;
+}
+
+section {
+  margin-top: 7%;
+  position: relative;
+  padding-top: 3opx;
+}
+
+div {
+  margin-top: 50px;
+}
+
+.p1 {
+  color: white;
+  margin-left: 40%;
+}
+
+.p2 {
+  color: white;
+  margin-left: 45%;
+  margin-top: 2%;
+}
+
+.primero {
+  height: 300px;
+  width: 250px;
+  tab-size: 3;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background: black;
+  border-radius: 12px;
+  margin: 3px;
+  opacity: 1;
+}
+
+.barra {
+  color: white;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 66;
+  color: white;
+  height: 110px;
+  width: 480px;
+  text-align: center;
+  margin-left: 35%;
+  font-family: f;
+}
+
+.b1 {
+  margin-left: 11%;
+  padding: 12px 63px;
+  border-bottom: #0f416f;
+  border-radius: 5px;
+  background-color: white;
+  color: #22031b;
+  font-size: 18px;
+  width: 900px;
+  height: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p4 {
+  border-radius: 5%;
+  background-color: rgb(70, 66, 66);
+  color: white;
+  font-size: 10px;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.medio {
+  display: flex;
+}
+
+.c1 {
+  border-radius: 8%;
+  height: 350px;
+  width: 370px;
+  background: rgb(150, 200, 163);
+  background: linear-gradient(90deg, rgba(151, 244, 146, 0.69) 53%, rgb(82, 197, 182) 65%);
+  margin: 2px;
+}
+
+.c12 {
+  margin: 20px;
+  height: 170px;
+  width: 300px;
+  background-image: linear-gradient(#8fd98f -120%, #195690);
+}
+
+.c2 {
+  border-radius: 8%;
+  height: 350px;
+  width: 350px;
+  background-color: rgb(3, 34, 73);
+  margin: 2px;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 430px;
+  color: white;
+  height: 40px;
+  width: 300px;
+  font-size: 25;
+}
+
+h4 {
+  background-color: transparent;
+}
+
+h5 {
+  font-size: 10;
+  background-color: transparent;
+  font-weight: normal;
+}

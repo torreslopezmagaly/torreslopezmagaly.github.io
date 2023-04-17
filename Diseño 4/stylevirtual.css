@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: fBarra;
+    src: url('./fontFormulario/HammersmithOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: fLogo;
+    src: url('./fontFormulario/Kanit-Thin.ttf');
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header nav a {
+    width: 145px;
+    display: inline-block;
+    background: white;
+    color: black;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.slogo {
+    font-family: fLogo;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgba(25, 92, 158, 0.533);
+}
+
+header nav a img {
+    width: 60px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    border: none;
+    outline: none;
+}
+
+.segunda {
+    background-color: rgb(14, 71, 163);
+    height: 100%;
+    position: fixed;
+    top: 12%;
+    left: 0;
+    width: 230px;
+}
+
+.segunda a {
+    color: #ffffff;
+    display: block;
+    padding: 16px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-bottom: 2px solid #dcd9d9ca;
+}
+
+.segunda a:hover {
+    background-color: #91e5ff4f;
+    color: #ffffff;
+}
+
+.sbarra {
+    background-color: rgba(218, 208, 218, 0.77);
+    width: 85%;
+    height: 50px;
+    margin-top: 19px;
+    margin-left: 15%;
+
+}
+
+.sbarra a {
+    width: 140px;
+    background-color: rgba(218, 208, 218, 0.722);
+    display: inline;
+    padding-top: 0.5px;
+    margin-left: 25px;
+    text-align: right;
+    text-decoration: none;
+    border-bottom: 2px solid #dcd9d9c1;
+}
+
+.contenedor2 {
+    background-color: #8a7373ca;
+    width: 85%;
+    height: 625px;
+    margin-top: 0;
+    margin-left: 15%;
+}
+
+form {
+    justify-content: center;
+    flex-grow: 8;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 10px;
+    flex-grow: 3;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+
+
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+
+.formulario {
+    margin-left: 17%;
+    margin-top: 2%;
+    padding: 20px;
+    width: 1200px;
+    height: 5%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(210, 208, 208, 0.436);
+}
+
+.formulario div {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 30;
+    border-collapse: collapse;
+    border: 1px solid black; /* establece el borde de la tabla */
+}
+
+td, th {
+    width: 10%;
+    height: 30px; /* establece la altura de las celdas en un valor fijo */
+    text-align: center; /* centra el contenido de las celdas */
+    
+    border-left: 1px solid  rgba(210, 208, 208, 0.542); /* establece el borde izquierdo de las celdas */
+    border-right: 1px solid  rgba(210, 208, 208, 0.536); /* establece el borde derecho de las celdas */
+    padding: 5px; /* agrega un poco de espacio entre las celdas */
+}
+
+td:first-child, th:first-child {
+    border-left: none; /* quita el borde izquierdo de la primera columna */
+}
+
+td:last-child, th:last-child {
+    border-right: none; /* quita el borde derecho de la última columna */
+}
+
+td:not(:last-child), th:not(:last-child) {
+    border-bottom: none; /* quita el borde inferior de todas las celdas excepto la última columna */
+}
+
+
+
+.tabla {
+
+    margin-top: 10px;
+    margin-left: 260px;
+
+    width: 1200px;
+    height: 300px;
+}
+
+.fuente {
+    font-size: 20;
+}
+
+td {
+    text-align: center;
+border-collapse: separate;
+    font-size: 22;
+}
+th{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

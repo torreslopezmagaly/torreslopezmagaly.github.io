@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>segundo Formulario</title>
+    <link rel="stylesheet" href="2formulario.css">
+
+</head>
+
+<body>
+    <!--imagen azul-->
+    <div class="container">
+        <div class="ed1">
+            <img src="./imgazul.png" alt="">
+        </div>
+        <!--Formularion-->
+        <form action="formRellenada.html" method="post">
+            <a href="">
+                <h1>Basic details</h1>
+            </a>
+            <!--Casillas del formularion-->
+            <div>
+                <label>
+                    First name:
+                    <input type="text" name="nombre" required maxlength="20" minlength="3">
+                </label>
+                <label>
+                    <label>
+                        Last name:
+                        <input type="text" name="nombre" required maxlength="20" minlength="2">
+            </div>
+            <!--Casillas del formularion-->
+            <div>
+                <label>
+                    Email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Your user:
+                    <input type="text" name="nombre" required maxlength="15" minlength="10">
+                </label>
+                <label>
+                    <!--Casillas del formularion-->
+            </div>
+            <div>
+                <label>
+                    Country:
+                    <select name="country" id="country" style="width: 320px;" required>
+                        <option value="estado1"> </option>
+                        <option value="estado2">California</option>
+                        <option value="estado3">Texas</option>
+                        <option value="estado4">Florida</option>
+                        <option value="estado1">New York </option>
+                        <option value="estado2">Pennsylvania</option>
+                        <option value="estado3">Iiiinois</option>
+                        <option value="estado4">Ohio</option>
+                        <option value="estado1">Georgia</option>
+                        <option value="estado2">North Carolina</option>
+                        <option value="estado3">Michigan</option>
+                    </select>
+                                </label>
+                <label>
+                    State:
+                    <select name="state" id="state" style="width: 165px;">
+                        <option value="estado1"> </option>
+                        <option value="estado2">Alabama</option>
+                        <option value="estado3">Arizona</option>
+                        <option value="estado4">Arcansas</option>
+                        <option value="estado1">California </option>
+                        <option value="estado2">Colorado</option>
+                        <option value="estado3">Connecticut</option>
+                        <option value="estado4">Delaware</option>
+                        <option value="estado1">Florida</option>
+                        <option value="estado2">Georgia</option>
+                        <option value="estado3">Hawaii</option>
+                        <option value="estado4">Idaho</option>
+                    </select>
+                </label>
+                <label>
+                    City:
+                    <select name="ciudad" id="ciudad" style="width: 145px;">
+                        <option value="ciudad1"></option>
+                        <option value="ciudad2">Austria</option>
+                        <option value="ciudad3">Belgium</option>
+                        <option value="ciudad4">Bulgaria</option>
+                        <option value="ciudad1">Croatia</option>
+                        <option value="ciudad2">Estonia</option>
+                        <option value="ciudad3">Malta</option>
+                        <option value="ciudad4">Poland</option>
+                        <option value="ciudad1">Romania</option>
+                        <option value="ciudad2">Italy</option>
+                        <option value="ciudad3">Germany</option>
+                        <option value="ciudad4">city3</option>
+                    </select>
+                </label>
+
+            </div>
+            <div>
+                <label for="phone">
+                    Phone number:
+                    <input type="text" id="phone" name="phone" pattern="^\(\d{3}\)\d{3}-\d{2}-\d{2}$" required>
+                </label>
+
+                <label for="code">
+                    Code
+                    <input type="text" id="code" name="code" required placeholder="Reference Code" pattern="^\d{3}-\d{3}$">
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Continue">
+            </div>
+            <div>
+                <input type="reset" value="Reset All">
+        </form>
+    </div>
+</body>
+
+</html>

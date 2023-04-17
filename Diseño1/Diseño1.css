@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    /*fijar un elemento en una posición determinada en la pantalla, incluso si el usuario se desplaza por la página.*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #062534;
+    padding: 10px;
+    z-index: 1;
+}
+
+nav img {
+    width: 70px;
+    height: auto;
+    margin-right: 20px;
+    vertical-align: bottom;
+    /* alinea verticalmente la imagen con los otros elementos */
+}
+
+li {
+    padding: 10px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    text-align: right;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a button {
+    height: 33px;
+    width: 108px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+    position: relative;
+    left: 660px;
+
+}
+li a img{
+    width: 20px;
+    height: 18px;
+    left: 2000px;
+}
+
+img {
+    width: 110%;
+    height: 80%;
+    z-index: 0;
+
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    transform: rotate(0deg);
+    height: 15px;
+
+}
+
+div section {
+    margin-left: 5%;
+    margin-top: 7%;
+    font-size: 14px;
+    color: white;
+}
+
+div section h1 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+}
+
+.button-container {
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 15%;
+}
+
+button {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    background-color: #062534;
+    color: white;
+    margin: 0 10px;
+    float: left;
+    border-radius: 50px;
+    border-color: 0;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.contenido {
+    position: absolute;
+    background-color: #062534;
+    top: 38px;
+    left: 0;
+    width: 99.3%;
+    height: 550px;
+    display: flex;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    /* radio de la esquina */
+
+
+}
+
+form {
+    left: 930px;
+    top: 140PX;
+    width: 28%;
+    height: 88vh;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 94%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    resize: vertical;
+}
+
+label {
+    display: block;
+    width: 93%;
+    margin-top: 10px;
+    font-size: 13px;
+    border: 1px solid #e0dfdfde;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button[type="submit"] {
+    /*top,right, botton, left*/
+    margin: 6% 3% 4% 0;
+ 
+    background-color: #062534;
+    color: #fff;
+    width: 345px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: inline-end;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(220, 227, 255);
+    color: #062534;
+}
+form p{
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    margin-left: 5%;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+section{
+    margin-top: 43%;
+    margin-left: 6%;
+    
+}
+section h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+section a{
+    left: 0px;
+    padding: 0;
+}
+.redes {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .redes img {
+    margin: 10px 8px;
+    
+    width: 14px;
+    height: 12px;
+  }
+  
